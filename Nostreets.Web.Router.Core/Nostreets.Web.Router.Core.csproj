@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Identity.EntityFramework" Version="2.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Nostreets.Extensions.Core\Nostreets.Extensions.Core\Nostreets.Extensions.Core.csproj" />
+    <ProjectReference Include="..\..\Nostreets.Orm.Ado.Core\Nostreets.Orm.Ado.Core\Nostreets.Orm.Ado.Core.csproj" />
+    <ProjectReference Include="..\..\Nostreets.Orm.EF.Core\Nostreets.Orm.EF.Core\Nostreets.Orm.EF.Core.csproj" />
+  </ItemGroup>
+
+</Project>
